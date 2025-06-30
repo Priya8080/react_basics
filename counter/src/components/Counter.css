@@ -1,0 +1,33 @@
+.counter-container{
+    background-color: transparent;
+    width: 50vw;
+    height: 30vh;
+    border: 2px solid yellow;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 1.5rem;
+    border-radius: 8px;
+    justify-content: space-around;
+}
+#btn{
+    background-color: transparent;
+    border: 2px solid yellow;
+    color: white;
+    padding: 0.4rem;
+    border-radius: 8px;
+    width: 35vw;
+    align-self: center;
+     font-size: large;
+     font-weight: 600;
+     cursor: pointer;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#btn:hover{
+    color: yellow;
+}
+#para{
+    text-align: center;
+    font-size: large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
