@@ -15,9 +15,9 @@ function App() {
   //})
 
 //variation: 2 -> that runs only first render
-//useEffect(() => {
-  //alert("I will run on only first render")
-//},[])
+useEffect(() => {
+  alert("I will run on only first render")
+},[])
 
 //variation: 3 
 //useEffect(() => {
@@ -25,12 +25,12 @@ function App() {
 //},[count])
 
 //variation: 4 -> multiple dependencies
-useEffect(() => {
-   alert("I will run every time when count/total is updated")
-},[count,total])
-  function handleClick(){
-   setCount(count+1);
-  }
+//useEffect(() => {
+  // alert("I will run every time when count/total is updated")
+//},[count,total])
+  //function handleClick(){
+   //setCount(count+1);
+  //}
 
   //variation: 5 -> iss baar let's add a cleanup function
  // useEffect(() => {
