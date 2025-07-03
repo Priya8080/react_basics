@@ -10,14 +10,14 @@ function App() {
 //third -> comma separated dependency list
 
 //variation :1 -> runs on every render
-  //useEffect(() => {
-  //alert("I will run on each render")
-  //})
+  useEffect(() => {
+  alert("I will run on each render")
+  })
 
 //variation: 2 -> that runs only first render
-useEffect(() => {
-  alert("I will run on only first render")
-},[])
+//useEffect(() => {
+  //alert("I will run on only first render")
+//},[])
 
 //variation: 3 
 //useEffect(() => {
