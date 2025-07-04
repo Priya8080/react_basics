@@ -8,7 +8,7 @@ function App() {
 
   const handleSubmit = (e) => {
     e.preventDefault(); // Page reload se roke
-    setSubmitted(true); // Show submitted data
+    setSubmitted(true); 
   };
 
   return (
