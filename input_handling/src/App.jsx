@@ -7,7 +7,7 @@ function App() {
   const [submitted, setSubmitted] = useState(false);
 
   const handleSubmit = (e) => {
-    e.preventDefault(); // Page reload se roke
+    e.preventDefault(); 
     setSubmitted(true); 
   };
 
