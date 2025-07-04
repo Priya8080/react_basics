@@ -33,13 +33,13 @@ function App() {
         <button type="submit">Submit</button>
       </form>
 
-      {/* {submitted && (
+      {submitted && (
         <div className="output">
           <h3>Submitted Data:</h3>
           <p>Name: {name}</p>
           <p>Email: {email}</p>
         </div>
-      )} */}
+      )}
     </div>
   );
 }
