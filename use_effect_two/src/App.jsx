@@ -11,8 +11,6 @@ function App() {
     const selectedQuote = quotes[randomIndex].text;
     setQuote(selectedQuote);
   };
-
-  // Show a quote on first load
   useEffect(() => {
     getRandomQuote();
   }, []);
