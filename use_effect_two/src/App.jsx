@@ -22,7 +22,6 @@ function App() {
       <h1>Quote Machine</h1>
       <p>{quote}</p>
 
-      {/* Button to get new quote */}
       <button onClick={getRandomQuote}>Get New Quote</button>
     </div>
   );
