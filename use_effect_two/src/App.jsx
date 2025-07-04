@@ -5,7 +5,6 @@ import './App.css';
 function App() {
   const [quote, setQuote] = useState("");
 
-  // Function to get new random quote
   const getRandomQuote = () => {
     const randomIndex = Math.floor(Math.random() * quotes.length);
     const selectedQuote = quotes[randomIndex].text;
