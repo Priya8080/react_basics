@@ -17,6 +17,5 @@ function App() {//jhbuguyfg
 //kjnihb
 //lkmkolj
 ///kojnhihbib
-//jnu9g
 
 export default App;
