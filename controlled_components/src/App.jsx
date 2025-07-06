@@ -13,5 +13,4 @@ function App() {//jhbuguyfg
     </div>
   );
 }
-//oijuh
 export default App;
