@@ -46,9 +46,6 @@ function App() {
   // )
   // return (
   //  <div>
-  //   {isLoggedIn ? <LogoutBtn/> : <LoginBtn/>}
-  //  </div>
-  // )
 }
 
 export default App
