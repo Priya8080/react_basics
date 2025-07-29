@@ -29,10 +29,6 @@ function App() {
   //   {isLoggedIn ? <LogoutBtn/> : <LoginBtn/>}
   //  </div>
   // )
-  // return (
-  //  <div>
-  //   {isLoggedIn ? <LogoutBtn/> : <LoginBtn/>}
-  //  </div>
 
 }
 
